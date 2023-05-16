@@ -3,3 +3,39 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+header {
+    display: flex;
+    background-color: #FFDBAA;
+    position: top;
+    border-bottom: 50px;
+}
+body {
+    background-color: #d4a76a;
+}
+#flights {
+    font-weight: bold;
+    text-align: center;
+}
+#home {
+    font-weight: bold;
+    color: white;
+    background-color: #805215;
+    height: 50px;
+    width: 70px;
+}
+
+header #home {
+    position: relative;
+    bottom: -20px;
+    left: 550px;
+}
+
+div {
+    display: block;
+    height: 200px;
+    width: 350px;
+    background-color: white;
+    position:fixed;
+    top: 150px;
+    left: 50px;
+}
